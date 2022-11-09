@@ -1,0 +1,46 @@
+.title {
+  text-align: center;
+  font-family: Arial, bold black;
+  text-overflow: clip;
+  position: relative;
+}
+.kopce {
+  width: 250px;
+  height: 35px;
+  background-color: rgb(44, 155, 127);
+  border-radius: 8px;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif white;
+  color: rgb(242, 228, 228);
+  box-shadow: 0px 0px 2px 2px rgb(247, 247, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Category {
+  display: flex;
+  overflow-x: hidden;
+  overflow: scroll;
+  height: 90vh;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.CategoryCard {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 500px;
+  width: 500px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  justify-content: space-around;
+  border-radius: 15px;
+  border-color: rgb(60, 106, 97);
+  box-shadow: 0px 0px 2px 2px rgb(9, 122, 94);
+  justify-content: space-between;
+}

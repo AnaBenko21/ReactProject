@@ -1,0 +1,60 @@
+.CardSlika {
+  height: 250px;
+  width: 250px;
+  justify-content: space-around;
+  border-radius: 15px;
+  border-color: rgb(60, 106, 97);
+  box-shadow: 0px 0px 2px 2px rgb(9, 122, 94);
+  justify-content: space-between;
+}
+
+.CardContainer {
+  height: 500px;
+  width: 500px;
+}
+
+.Card {
+  display: flex;
+  overflow-x: hidden;
+  overflow: scroll;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+.price {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(44, 155, 127);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: whitesmoke;
+  box-shadow: 0px 0px 2px 2px blanchedalmond;
+  margin-left: 60px;
+}
+.KopceCard {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(228, 238, 236);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif rgb(18, 17, 17);
+  box-shadow: 0px 0px 2px 2px rgb(54, 191, 159);
+}
+
+.PriceCard {
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif rgb(18, 17, 17);
+}
